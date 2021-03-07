@@ -178,27 +178,27 @@ li {
 }
 
 /*--------------------------------
- Feature
+ Career
 ---------------------------------*/
-.feature-section .inner {
+.career-section .inner {
   max-width: 1000px;
 }
 
-.feature-item {
+.career-item {
   display: flex;
   flex-wrap: wrap;
 }
 
-.feature-image-wrapper {
+.career-image-wrapper {
   flex: 0 0 48%;
   margin-right: 40px;
 }
 
-.feature-body {
+.career-body {
   flex: 1;
 }
 
-.feature-body p:not(:last-child) {
+.career-body p:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -240,28 +240,28 @@ li {
 }
 
 /*--------------------------------
- About
+ Profile
 ---------------------------------*/
-.about-section .inner {
+.profile-section .inner {
   max-width: 1000px;
 }
 
-.about-item {
+.profile-item {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.about-image-wrapper {
+.profile-image-wrapper {
   flex: 0 0 25%;
   margin-right: 40px;
 }
 
-.about-body {
+.profile-body {
   flex: 1;
 }
 
-.about-body p:not(:last-child) {
+.profile-body p:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -479,12 +479,12 @@ li {
     opacity: 1;
   }
 
-  /* Feature */
-  .feature-item {
+  /* Career */
+  .career-item {
     display: block;
   }
 
-  .feature-image-wrapper {
+  .career-image-wrapper {
     max-width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
@@ -509,12 +509,12 @@ li {
     margin-bottom: 30px;
   }
 
-  /* About */
-  .about-item {
+  /* Profile */
+  .profile-item {
     display: block;
   }
 
-  .about-image-wrapper {
+  .profile-image-wrapper {
     width: 100px;
     max-width: 100%;
     margin: 0 auto 20px;
