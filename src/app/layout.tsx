@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="ja" className="scroll-smooth">
       <body className={`${geist.variable} font-sans antialiased bg-slate-950`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
