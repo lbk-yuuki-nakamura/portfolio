@@ -1,4 +1,8 @@
-export default function Hero() {
+type Props = {
+  skillSheetUrl?: string;
+};
+
+export default function Hero({ skillSheetUrl }: Props) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Grid background */}
@@ -31,14 +35,16 @@ export default function Hero() {
           >
             制作物を見る
           </a>
-          <a
-            href="https://skill-sheet.tech-yn.com/s2EJp5"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-8 py-3 rounded-full border border-slate-600 text-slate-300 font-medium text-sm hover:border-slate-400 hover:text-white transition-colors"
-          >
-            スキルシートを見る
-          </a>
+          {skillSheetUrl && (
+            <a
+              href={skillSheetUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-full border border-slate-600 text-slate-300 font-medium text-sm hover:border-slate-400 hover:text-white transition-colors"
+            >
+              スキルシートを見る
+            </a>
+          )}
         </div>
       </div>
 

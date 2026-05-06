@@ -16,7 +16,7 @@ export default async function SkillPage({ params }: Props) {
     <>
       <Header skillSheetUrl={skillSheetUrl} />
       <main>
-        <Hero />
+        <Hero skillSheetUrl={skillSheetUrl} />
         <Projects />
         <Skills />
       </main>
