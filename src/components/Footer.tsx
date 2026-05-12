@@ -7,7 +7,7 @@ export default function Footer({ skillSheetUrl }: Props) {
     <footer className="border-t border-white/[0.06] py-10 px-6">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="text-slate-500 text-sm">
-          &copy; {new Date().getFullYear()} 中村 勇希
+          &copy; {new Date().getFullYear()} Nakamura
         </p>
         <div className="flex gap-6 text-sm text-slate-500">
           {skillSheetUrl && (

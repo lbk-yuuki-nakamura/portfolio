@@ -2,7 +2,7 @@
 
 ## プロジェクト概要
 
-中村 勇希のポートフォリオサイト。Next.js 15 + TypeScript + Tailwind CSS 3 で構成されたシングルページアプリ。
+Nakamuraのポートフォリオサイト。Next.js 15 + TypeScript + Tailwind CSS 3 で構成されたシングルページアプリ。
 
 ## コマンド
 

@@ -18,7 +18,7 @@ export default function Hero({ skillSheetUrl }: Props) {
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 leading-tight">
           <span className="bg-gradient-to-r from-cyan-300 via-blue-400 to-cyan-400 bg-clip-text text-transparent">
-            中村 勇希
+            Nakamura
           </span>
         </h1>
 
