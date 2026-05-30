@@ -31,4 +31,12 @@ export const projects: Project[] = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS v4", "JWT"],
     isPersonal: true,
   },
+  {
+    title: "キャッシュノート",
+    description:
+      "収支を記録・管理する家計簿アプリ。カレンダーや月次グラフで収支を可視化し、予算管理・サブスクリプション管理にも対応しています。\n決済システムを導入してサブスクリプションの実装も行なっています。",
+    url: "https://cash-note.tech-yn.com/",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS v4", "Supabase", "Stripe"],
+    isPersonal: false,
+  },
 ];
